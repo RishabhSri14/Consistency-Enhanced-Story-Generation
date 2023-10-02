@@ -10,9 +10,6 @@ Yug Dedhia(2020115004)
 Rishabh Jain(2020111003)  
 </div dir='ltr'>
 
-Creating a README file is a good practice to provide information about your code, its purpose, and how to use it. Here's a template for a README file based on the code you provided:
-
----
 
 # Writing Prompts Data Processing
 
