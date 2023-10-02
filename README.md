@@ -47,6 +47,10 @@ pip install numpy pandas csvkit rake-nltk sumy
    - Ensure you have the CSV files (`combined_traindata.csv`, etc.) in the same directory as the code.
    - Run the code to process the data and generate (prompt, outline, story) triplets.
    - A new CSV file named `new_traindata.csv` will be created, containing the processed data.
+3. **Tasks Completed
+
+   - Preparation of dataset for outline generation.
+   - Preprocessing of the datasets.
 
 
 
