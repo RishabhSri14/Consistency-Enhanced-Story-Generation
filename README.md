@@ -48,18 +48,15 @@ pip install numpy pandas csvkit rake-nltk sumy
    - Run the code to process the data and generate (prompt, outline, story) triplets.
    - A new CSV file named `new_traindata.csv` will be created, containing the processed data.
     
-3. **Tasks Completed**
-
-   - Preparation of dataset for outline generation.
-   - Preprocessing of the datasets.
-   - Generation of story outline using prompt (completed but needs finetuning).
-     
-4. **Tasks Remaining**
-
-   - Generation of story using outline.
-   - Discourse Coherency Enhancement.
-   - Building single-stage story generation and 2-stage generation without using discourse relation modeling to compare to the original pipeline.
-   - Evaluation of the story using the metrics.
-   - Comparing the performance obtained using this pipeline against single-stage story generation and 2-stage generation without using discourse relation modeling
-
-
+3. **To Run single stage story generation**
+   - Update src/config.yml accordingly
+   - Run *python single_stage.py* to train and validate the model.
+   
+4. **To Run double stage story generation**
+   - Update src/config.yml accordingly
+   - Run *python double_stage.py* to train and validate the model.
+   
+5. **To include discourse coherency story generation**
+   - Update src/config.yml accordingly
+   - Run *python discourse.py* to train and validate the model.
+   
